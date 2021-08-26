@@ -4,6 +4,7 @@ import Bullfrog from "../components/images/bullfrog.jpg";
 import Swiss from "../components/images/Swiss.png";
 import Mac from "../components/images/mac-10.jpg";
 import Stoner from "../components/images/stoner.jpg";
+import Ots from "../components/images/ots-9.jpg";
 
 function Cards({ title, imageUrl, body }) {
   return (
@@ -149,25 +150,25 @@ function Cards({ title, imageUrl, body }) {
         </div>
         <div className="card-container">
           <div className="image-container">
-            <img src={Swiss} alt="" />
+            <img src={Ots} alt="" />
           </div>
           <div className="card-content">
             <div className="card-title">
-              <p>Swiss</p>
+              <p>OTs 9</p>
             </div>
             <div className="card-body">
               <p>
-                The Swiss is the most used Sniper rifle in the game right now.
-                The low flinch with fast rate of fire and aim down sight speed
-                makes this the best sniper to use. The best build for it comes
-                from pro warzone player Newbz.
+                The ots is one of the new SMG's and it is really good up close.
+                Newbz was using it with a Krig in the 75k warzone tourny
+                yesterday. The best build for it comes from pro warzone player
+                Newbz.
                 <br />
                 <br />
-                <li> Agency suppressor</li>
-                <li>Mil Spec Barrel</li>
-                <li>3X Optic</li>
-                <li>Feild Agent Grip</li>
-                <li>60 Rnd Mag</li>
+                <li>Gru suppressor</li>
+                <li>VDV Reinforced Barrel</li>
+                <li>Tiger Team Spotlight</li>
+                <li>KGB Skeletal Stock</li>
+                <li>VDV 40 Rnd Fast Mag</li>
               </p>
             </div>
           </div>
